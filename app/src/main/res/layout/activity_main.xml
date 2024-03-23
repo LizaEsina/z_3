@@ -7,6 +7,16 @@
     android:background="#BEC9D3"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/k"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="658dp"
+        tools:ignore="MissingConstraints"
+        android:importantForAccessibility="no" />
+
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="94dp"
         android:layout_height="17dp"
@@ -20,7 +30,8 @@
             android:layout_height="16dp"
             app:layout_column="4"
             app:layout_row="0"
-            app:srcCompat="@drawable/staar" />
+            app:srcCompat="@drawable/staar"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/imageView13"
@@ -63,7 +74,8 @@
         android:background="@drawable/rounded_corner3"
         android:text="."
         tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="7dp" />
+        tools:layout_editor_absoluteY="7dp"
+        tools:ignore="MissingConstraints" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="118dp"
@@ -305,9 +317,9 @@
         android:elegantTextHeight="true"
         android:text="   RUB                     "
         android:textColor="#838282"
-        tools:layout_editor_absoluteX="345dp"
-        tools:layout_editor_absoluteY="3dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="7dp" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="135dp"
@@ -421,96 +433,6 @@
             android:layout_width="25dp"
             android:layout_height="27dp"
             app:srcCompat="@drawable/alfa" />
-    </androidx.gridlayout.widget.GridLayout>
-
-    <androidx.gridlayout.widget.GridLayout
-        android:layout_width="376dp"
-        android:layout_height="76dp"
-        app:useDefaultMargins="true"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="657dp"
-        tools:ignore="MissingConstraints">
-
-        <TextView
-            android:id="@+id/textView31"
-            android:layout_width="68dp"
-            android:layout_height="57dp"
-            android:background="@drawable/rounded_corner1"
-            app:layout_column="4"
-            app:layout_row="0" />
-
-        <TextView
-            android:id="@+id/textView35"
-            android:layout_width="68dp"
-            android:layout_height="57dp"
-            android:background="@drawable/rounded_corner1"
-            app:layout_column="3"
-            app:layout_row="0" />
-
-        <TextView
-            android:id="@+id/textView32"
-            android:layout_width="68dp"
-            android:layout_height="57dp"
-            android:background="@drawable/rounded_corner1"
-            app:layout_column="0"
-            app:layout_row="0" />
-
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="68dp"
-            android:layout_height="57dp"
-            android:background="@drawable/rounded_corner1"
-            app:layout_column="1"
-            app:layout_row="0" />
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="68dp"
-            android:layout_height="57dp"
-            android:background="@drawable/rounded_corner1"
-            app:layout_column="2"
-            app:layout_row="0" />
-
-        <ImageView
-            android:id="@+id/imageView45"
-            android:layout_width="64dp"
-            android:layout_height="51dp"
-            app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/b" />
-
-        <ImageView
-            android:id="@+id/imageView46"
-            android:layout_width="65dp"
-            android:layout_height="50dp"
-            app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/g" />
-
-        <ImageView
-            android:id="@+id/imageView47"
-            android:layout_width="61dp"
-            android:layout_height="47dp"
-            app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/k" />
-
-        <ImageView
-            android:id="@+id/imageView48"
-            android:layout_width="66dp"
-            android:layout_height="55dp"
-            app:layout_column="3"
-            app:layout_row="0"
-            app:srcCompat="@drawable/o" />
-
-        <ImageView
-            android:id="@+id/imageView49"
-            android:layout_width="63dp"
-            android:layout_height="53dp"
-            app:layout_column="4"
-            app:layout_row="0"
-            app:srcCompat="@drawable/n" />
-
     </androidx.gridlayout.widget.GridLayout>
 
     <TextView
@@ -740,7 +662,8 @@
         android:layout_height="2dp"
         android:background="#9A9999"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:layout_editor_absoluteY="303dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView51"
@@ -748,15 +671,8 @@
         android:layout_height="2dp"
         android:background="#9A9999"
         tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="470dp" />
-
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="415dp"
-        android:layout_height="2dp"
-        android:background="#9A9999"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="637dp" />
+        tools:layout_editor_absoluteY="470dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView53"
@@ -765,7 +681,8 @@
         android:elegantTextHeight="true"
         android:text=" USDT"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="117dp" />
+        tools:layout_editor_absoluteY="117dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -784,7 +701,8 @@
         android:background="@drawable/rounded_corner"
         android:text="                                 "
         tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="116dp" />
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView62"
@@ -822,7 +740,8 @@
         android:layout_height="21dp"
         android:text=" BTC"
         tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="119dp" />
+        tools:layout_editor_absoluteY="119dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -888,9 +807,9 @@
         android:text="Личный кабинет"
         android:textSize="20sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="3dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="7dp" />
 
     <ImageView
         android:id="@+id/imageView44"
@@ -909,7 +828,8 @@
         android:text="Продать"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView70"
@@ -918,14 +838,15 @@
         android:text="Создать"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView71"
-        android:layout_width="105dp"
-        android:layout_height="38dp"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
         android:autoText="true"
-        android:background="@drawable/rounded_corner3"
+        android:background="@drawable/rounded_corner1"
         android:contextClickable="true"
         android:elegantTextHeight="true"
         android:freezesText="true"
@@ -933,7 +854,44 @@
         android:textAlignment="center"
         android:textColor="#03A9F4"
         android:textSize="20sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="50dp" />
+        tools:layout_editor_absoluteY="47dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/g"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="658dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="64dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/b"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="658dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/o"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="658dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/n"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="660dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
